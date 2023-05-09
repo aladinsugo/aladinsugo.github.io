@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: bold;
+}
+body{
+    width: 300px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100px;
+}
+.title{
+    background-color: lightblue;
+    margin: 5px 0px;
+}
+.Instagram{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+h2{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px 0px;
+}
+div{
+    border: 1px;
+    border-radius: 15px;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    width: 300px;
+    color: white;
+    background-color: lightgreen;
+    text-align: center;
+}
+.button{
+    border: 1px solid black;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    width: 300px;
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+}
+.UButton{
+    background-color: red;
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.CButton{
+    border: 1px solid black;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    width: 300px;
+    color: white;
+    background-color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+.CButton:hover{
+    background-color: pink;
+    color: black;
+    text-decoration: line-through;
+}
+.CButton:active{
+    background-color: pink;
+    color: black;
+    text-decoration: underline;
+}
